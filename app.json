@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "covid test",
+    "slug": "covid-test",
+    "privacy": "public",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "config": {
+        "googleMobileAdsAppId": "ca-ca-app-pub-8830969898346540~1583533119"
+      },
+      "package": "com.sabankayis.covidtest"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMobileAdsAppId": ""
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
